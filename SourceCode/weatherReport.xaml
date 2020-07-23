@@ -1,0 +1,38 @@
+﻿<Window x:Class="ModoLabs.weatherReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ModoLabs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="AliceBlue">
+        <Label x:Name="label" Content=" Modo Labs Weather Report" HorizontalAlignment="Left" Margin="186,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="check" Content="Click" HorizontalAlignment="Left" Margin="331,71,0,0" VerticalAlignment="Top" Width="33" Click="check_Click" RenderTransformOrigin="-1.944,-0.614"/>
+
+        <TextBox x:Name="DisplayCityName" HorizontalAlignment="Left" Height="18" Margin="361,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DisplayTemperature" HorizontalAlignment="Left" Height="18" Margin="200,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DisplayCountryName" HorizontalAlignment="Left" Height="17" Margin="24,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CountryName" HorizontalAlignment="Left" Height="23" Margin="197,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="111"/>
+        <TextBox x:Name="CityName" HorizontalAlignment="Left" Height="23" Margin="195,51,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="CityNameLabel" Content="Enter the City Name" HorizontalAlignment="Left" Margin="31,49,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CountryNameLabel" Content="Enter the Country Name" HorizontalAlignment="Left" Margin="29,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Country Name" HorizontalAlignment="Left" Height="31" Margin="22,142,0,0" VerticalAlignment="Top" Width="92"/>
+        <Label x:Name="label2" Content="Temperature" HorizontalAlignment="Left" Height="30" Margin="204,141,0,0" VerticalAlignment="Top" Width="107"/>
+        <Label x:Name="label3" Content="City Name" HorizontalAlignment="Left" Height="29" Margin="358,140,0,0" VerticalAlignment="Top" Width="99"/>
+        <TextBox x:Name="feels_like" HorizontalAlignment="Left" Height="23" Margin="27,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="temp_min" HorizontalAlignment="Left" Height="23" Margin="203,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="temp_max" HorizontalAlignment="Left" Height="23" Margin="365,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label4" Content="Feels like" HorizontalAlignment="Left" Margin="29,196,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Temp min" HorizontalAlignment="Left" Margin="198,194,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="Temp max" HorizontalAlignment="Left" Margin="360,195,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Pressure" HorizontalAlignment="Left" Height="23" Margin="29,272,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Humidity" HorizontalAlignment="Left" Height="23" Margin="207,270,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Visibility" HorizontalAlignment="Left" Height="23" Margin="372,269,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label7" Content="Pressure" HorizontalAlignment="Left" Margin="32,244,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label8" Content="Humidity" HorizontalAlignment="Left" Margin="207,244,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label9" Content="Visibility" HorizontalAlignment="Left" Margin="363,242,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
