@@ -8,7 +8,8 @@ Time taken and challenges faced.
 
 I would like to work on these on version 2
  - Tried to get latitude and longitude data using BogdanM.LocationServices.GoogleMaps API with the current location.
+ - Tried to get google Geolocation API key to get the latitude and longitude data since it was paid service dint proceed
  - Can improve the tab movements of cursor.
- -Can improve the way the application looks.
+ - Can improve the way application looks.
 
 
