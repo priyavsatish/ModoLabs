@@ -10,10 +10,11 @@ Time taken and challenges faced.
  - Wanted to show all the parameters in the UI. Finally decided to show basic and nesessary parameters.
  - I wouldnt say it was a challenge I spent sometime on getting to know about API since I havent worked before.
 
-I would like to work on these on version 2
- - I can get latitude and longitude data using BogdanM.LocationServices.GoogleMaps API with the current location.
- - I can get google Geolocation API key to get the latitude and longitude data since it was paid service dint proceed
+Things I would like to work on these on version 2
+ - I can get latitude and longitude data using BogdanM.LocationServices.GoogleMaps API with the current location or I can get google Geolocation API key to get the latitude and longitude data since it was paid service dint proceed
  - Can improve the tab movements of cursor.
  - Can improve the way application looks.
+ - Can display more paramteres of weather.
+ - Can add forecast of weather for five days.
 
 
