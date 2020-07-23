@@ -1,7 +1,7 @@
 Weather report challenge
 - Created a login in open weather map
 - Choose Visual Studio(C#) for coding
-- Installed newton json for Visual studio for converting data from open weather map report to varibles in the code.
+- Installed newton json for Visual studio for converting data from open weather map report to get variables for the code.
 
 Time taken and challenges faced.
  - I took around 2 hours.Challenges: was confused to show the require parameters. Wanted to show all the parameters in the UI. Finally decides to show basic and nesessary parameters.
