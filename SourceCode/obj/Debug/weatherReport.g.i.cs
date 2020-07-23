@@ -36,9 +36,9 @@ namespace ModoLabs {
     
     
     /// <summary>
-    /// weatherReport
+    /// MainWindow
     /// </summary>
-    public partial class weatherReport : System.Windows.Window, System.Windows.Markup.IComponentConnector {
+    public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
         #line 10 "..\..\weatherReport.xaml"
